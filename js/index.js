@@ -35,6 +35,7 @@ function reset(){
   oboard = [0, 0, 0, 0, 0, 0, 0, 0, 0];
   whoseTurn = "X";
   game = true;
+  $(".squares).off();
   $(".newGame").html("");
   $(".newGame").addClass("hidden");
   $(".board").addClass("hidden");
